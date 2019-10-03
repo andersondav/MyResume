@@ -77,17 +77,17 @@ class NameHeading extends React.Component {
                 {this.canvLoaded && 
                 <img src={this.iconsToConvert[0].icon} 
                     key={'img-' + 0} alt={this.iconsToConvert[0].alt} 
-                    style={{ position: 'absolute', top: '43%', height: 25, width: 25 }}/>}
+                    style={{ position: 'absolute', top: '41%', height: 25, width: 25 }}/>}
                   <p style={{ background: 'none', padding: '0 0', margin: '6px 0 0 30px'}}> {this.props.email}</p>
                 {this.canvLoaded && 
                 <img src={this.iconsToConvert[1].icon} 
                     key={'img-' + 1} alt={this.iconsToConvert[1].alt} 
-                    style={{ position: 'absolute', top: '60%', height: 25, width: 25 }}/>}
+                    style={{ position: 'absolute', top: '58%', height: 25, width: 25 }}/>}
                   <p style={{ background: 'none', padding: '0 0', margin: '9px 0 0 30px'}}>{this.props.github}</p>
                 {this.canvLoaded &&
                 <img src={this.iconsToConvert[2].icon} 
                     key={'img-' + 2} alt={this.iconsToConvert[2].alt} 
-                    style={{ position: 'absolute', top: '77%', height: 25, width: 25 }}/>}
+                    style={{ position: 'absolute', top: '75%', height: 25, width: 25 }}/>}
                   <p style={{ background: 'none', padding: '0 0', margin: '9px 0 0 30px'}}>{this.props.linkedIn}</p>
             </div>
           </div>
