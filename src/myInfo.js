@@ -16,7 +16,7 @@ var myInfo = {
     },
     technicalSkills: {
         proficient: ['Java', 'C', 'Swift/iOS Development', 'ReactJS', 'Github', 'HTML/CSS', 'Javascript', 'NodeJS'],
-        basic: ['Linux', 'Flutter/Dart', 'Python', 'Firebase', 'C++']  
+        basic: ['Linux', 'Flutter/Dart', 'Python', 'Firebase', 'C++', 'R']  
     },
     softSkills: [
         'Team player', 'Communicator', 'Problem-solver', 'Decision-maker'
