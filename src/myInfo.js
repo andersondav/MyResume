@@ -33,7 +33,7 @@ var myInfo = {
                 "contributing to meaningful and enriching projects.",
     coursework: "Problem Solving and Object-Oriented Programming (Java), Programming in C, Data Structures " +
                 "and Algorithms, Computer Architecture, Foundations of Computer Science, Systems Programming," +
-                "Data Mining & Machine Learning, Codepath iOS Development Course",
+                " Data Mining & Machine Learning, Codepath iOS Development Course",
     projects: [
         {
             title: 'Logic Central',
