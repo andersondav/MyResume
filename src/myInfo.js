@@ -15,7 +15,7 @@ var myInfo = {
         gradDate: 'Expected Spring 2022'
     },
     technicalSkills: {
-        proficient: ['Java', 'C', 'Swift/iOS Development', 'ReactJS', 'Github', 'HTML/CSS', 'Javascript', 'NodeJS'],
+        proficient: ['Java', 'C', 'Swift/iOS Development', 'ReactJS', 'Github', 'HTML/CSS', 'Javascript', 'NodeJS', 'AngularJS'],
         basic: ['Linux', 'Flutter/Dart', 'Python', 'Firebase', 'C++', 'R']  
     },
     softSkills: [
@@ -32,8 +32,8 @@ var myInfo = {
                 "an internship to gain experience working in a professional production environment while " +
                 "contributing to meaningful and enriching projects.",
     coursework: "Problem Solving and Object-Oriented Programming (Java), Programming in C, Data Structures " +
-                "and Algorithms, Computer Architecture, Foundations of Computer Science, " +
-                "Codepath iOS Development Course",
+                "and Algorithms, Computer Architecture, Foundations of Computer Science, Systems Programming," +
+                "Data Mining & Machine Learning, Codepath iOS Development Course",
     projects: [
         {
             title: 'Logic Central',
