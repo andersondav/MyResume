@@ -28,9 +28,11 @@ var myInfo = {
         date: 'Jun-Aug 2018 & 2019',
         desc: 'Worked on a team to complete various assignments for company\'s work with clients.'
     },
+    // objective: "CS student with great attention to detail, communication skills, and desire to learn seeking " +
+    //             "an internship to gain experience working in a professional production environment while " +
+    //             "contributing to meaningful and enriching projects.",
     objective: "CS student with great attention to detail, communication skills, and desire to learn seeking " +
-                "an internship to gain experience working in a professional production environment while " +
-                "contributing to meaningful and enriching projects.",
+                "a scholarship to enhance studies and demonstrate excellence in chosen field of study.",
     coursework: "Problem Solving and Object-Oriented Programming (Java), Programming in C, Data Structures " +
                 "and Algorithms, Computer Architecture, Foundations of Computer Science, Systems Programming," +
                 " Data Mining & Machine Learning, Codepath iOS Development Course",
