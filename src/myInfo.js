@@ -15,8 +15,8 @@ var myInfo = {
         gradDate: 'Expected Spring 2022'
     },
     technicalSkills: {
-        proficient: ['Java', 'C', 'Swift/iOS Development', 'ReactJS', 'Github', 'HTML/CSS', 'Javascript', 'NodeJS', 'AngularJS'],
-        basic: ['Linux', 'Flutter/Dart', 'Python', 'Firebase', 'C++', 'R']  
+        proficient: ['Java', 'C', 'Swift/iOS Development', 'ReactJS', 'Github', 'HTML/CSS', 'Javascript', 'NodeJS', 'AngularJS', 'Python'],
+        basic: ['Linux', 'Elixir', 'Firebase', 'C++', 'R']  
     },
     softSkills: [
         'Team player', 'Communicator', 'Problem-solver', 'Decision-maker'
@@ -24,37 +24,40 @@ var myInfo = {
     workExperience: {
         company: 'DK Dwellings, LLC',
         location: 'Carmel, IN',
-        title: 'General Contracting Worker',
         date: 'Jun-Aug 2018 & 2019',
         desc: 'Worked on a team to complete various assignments for company\'s work with clients.'
     },
     objective: "CS student with great attention to detail, communication skills, and desire to learn seeking " +
                 "an internship to gain experience working in a professional production environment while " +
                 "contributing to meaningful and enriching projects.",
+    // objective: "CS student with great enjoyment of creating seeking " +
+    //              "admission into Hacktech 2020 to gain additional experience contributing to meaningful and enriching projects, and " +
+    //              "participating in the nationwide CS community through large-scale hackathons.",
     coursework: "Problem Solving and Object-Oriented Programming (Java), Programming in C, Data Structures " +
                 "and Algorithms, Computer Architecture, Foundations of Computer Science, Systems Programming," +
                 " Data Mining & Machine Learning, Codepath iOS Development Course",
     projects: [
         {
-            title: 'Logic Central',
-            link: 'https://tinyurl.com/y77nm95o',
-            github: 'http://bit.ly/2oEvOjZ',
-            type: 'Personal Project',
-            date: '2018',
+            title: 'Data Sphere',
+            link: 'https://datasphere.space',
+            github: 'https://github.com/KritR/DataSphere',
+            type: 'BoilerMake Hackathon Winning Project',
+            date: '2020',
             info: [
-                'Website about the musician Bobby Hall that explores his music and fanbase.',
-                'Created using GatsbyJS, a static site generator built on NodeJS and ReactJS.',
-                'Utilized Firebase to authenticate users, to store user-sent data, and to read data from a database.',
+                'Website that allows users to visualize historical events across space and time.',
+                'Data loaded into MongoDB Atlas from Google Cloud BigQuery',
+                'Utilized a backend built with Phoenix for Elixir and a HTML/JS frontend.',
+                'Used natural language processing (NLP) packages in Python',
                 'Project involved quickly learning and adapting to new frameworks and technologies.'
             ],
             keywords: [
-                'GatsbyJS', 'NodeJS', 'ReactJS', 'Firebase'
+                'MongoDB', 'Atlas', 'Google', 'Cloud', 'BigQuery', 'Elixir', 'Phoenix', 'Python', '(NLP)'
             ]
         },
         {
             title: 'Purdue Nutrition Calculator',
             link: null,
-            github: 'https://bit.ly/2Mtulrh',
+            github: 'https://github.com/purduenutritioncalculator/PurdueNutritionCalc',
             type: 'Team Project',
             date: 'Mar-May 2019',
             info: [
@@ -64,7 +67,7 @@ var myInfo = {
                 'Project involved applying skills regarding team collaboration and the product development cycle.'
             ],
             keywords: [
-                'Xcode', 'Swift', 'RESTful', 'API', 'Core Data'
+                'Xcode', 'Swift', 'RESTful', 'API', 'Core', 'Data'
             ]
         }
     ],
@@ -80,6 +83,10 @@ var myInfo = {
         {
             name: "Purdue EPICS EVEI Team",
             dates: "Aug - Dec 2018"
+        },
+        {
+            name: "CodePath iOS Tech Fellow/TA",
+            dates: 'Jan 2020 - Present'
         }
     ]
 }
