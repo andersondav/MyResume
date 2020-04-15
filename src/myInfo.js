@@ -15,25 +15,33 @@ var myInfo = {
         gradDate: 'Expected Spring 2022'
     },
     technicalSkills: {
-        proficient: ['Java', 'C', 'Swift/iOS Development', 'ReactJS', 'Github', 'HTML/CSS', 'Javascript', 'NodeJS', 'AngularJS', 'Python'],
-        basic: ['Linux', 'Elixir', 'Firebase', 'C++', 'R']  
+        proficient: ['Java', 'C', 'Swift/iOS', 'Python', 'C++', 'ReactJS', 'Github', 'HTML/CSS', 'Javascript', , 'AngularJS'],
+        basic: ['Linux', 'Elixir', 'Firebase', 'R', 'NodeJS']  
     },
     softSkills: [
         'Team player', 'Communicator', 'Problem-solver', 'Decision-maker'
     ],
-    workExperience: {
-        company: 'DK Dwellings, LLC',
-        location: 'Carmel, IN',
-        date: 'Jun-Aug 2018 & 2019',
-        desc: 'Worked on a team to complete various assignments for company\'s work with clients.'
-    },
+    workExperience: [
+        {
+            company: 'DK Dwellings, LLC',
+            location: 'Carmel, IN',
+            date: 'Jun-Aug 2018 & 2019',
+            desc: 'Worked on a team to complete assignments for company\'s clients.'
+        },
+        {
+            company: 'Garmin, International',
+            location: 'Olathe, KS',
+            date: 'May-Aug 2020',
+            desc: 'Cancelled due to COVID-19'
+        }
+    ],
     objective: "CS student with great attention to detail, communication skills, and desire to learn seeking " +
                 "an internship to gain experience working in a professional production environment while " +
                 "contributing to meaningful and enriching projects.",
     // objective: "CS student with great enjoyment of creating seeking " +
-    //              "admission into Hacktech 2020 to gain additional experience contributing to meaningful and enriching projects, and " +
+    //              "admission into WinHacks 2020 to gain additional experience contributing to meaningful and enriching projects, and " +
     //              "participating in the nationwide CS community through large-scale hackathons.",
-    coursework: "Problem Solving and Object-Oriented Programming (Java), Programming in C, Data Structures " +
+    coursework: "Object-Oriented Programming (Java), Programming in C, Data Structures " +
                 "and Algorithms, Computer Architecture, Foundations of Computer Science, Systems Programming," +
                 " Data Mining & Machine Learning, Codepath iOS Development Course",
     projects: [
@@ -79,10 +87,6 @@ var myInfo = {
         {
             name: "Hello World Hackathon 2019 Executive Team",
             dates: "Mar - Sep 2019"
-        },
-        {
-            name: "Purdue EPICS EVEI Team",
-            dates: "Aug - Dec 2018"
         },
         {
             name: "CodePath iOS Tech Fellow/TA",

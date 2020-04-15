@@ -14,12 +14,20 @@ class WorkExperience extends React.Component {
         return (
             <div style={{margin: '0 0 4% 0',
             background: 'none'}}>
-                <h1 style={{margin: '0 0'}}>Work Experience</h1>
-                <p style={{margin: '0 0 0 0', textDecoration: 'underline'}}>{this.state.workExperience.company}</p>
-                <ul style={{margin: '2% 0', padding: '0 0 0 10%'}}>
-                    <li style={{margin: '0 0 0 0'}}>{this.state.workExperience.date} in {this.state.workExperience.location}</li>
-                    <li style={{margin: '0 0 0 0'}}>{this.state.workExperience.desc}</li>
-                </ul>
+            <h1 style={{margin: '0 0'}}>Work Experience</h1>
+                {
+                    this.state.workExperience.map((exp, index, arr) => {
+                        return (
+                            <div style={{margin: '0 0',
+                                padding: '0 0', background: 'none'}}>
+                                <p style={{margin: '0 0 0 0', textDecoration: 'underline'}}>{exp.company}</p>
+                                <ul style={{margin: '2% 0', padding: '0 0 0 10%'}}>
+                                    <li style={{margin: '0 0 0 0'}}>{exp.date} in {exp.location}</li>
+                                    <li style={{margin: '0 0 0 0'}}>{exp.desc}</li>
+                                </ul>
+                            </div>)
+                    })
+                }
                 <style>{styles}</style>
             </div>
         )
