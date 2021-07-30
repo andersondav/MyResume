@@ -27,17 +27,17 @@ var myInfo = {
             location: 'San Diego, CA (Remote)',
             date: 'Summer 2021',
             desc: ['Software Engineering Intern on the UIPlatform team', 
-                    'Worked in agile environment to develop scalable UI for TurboTax Online',
+                    'Worked in agile environment to develop scalable UI for TTO (TurboTax Online)',
                     'Utilized various platforms such as React, TypeScript, Jira',
-                    'Created reusable UI to contribute to company goals']
+                    'Contributed to team and company objectives']
         },
     ],
-    // objective: "CS student with great attention to detail, communication skills, and desire to learn seeking " +
-    //             "an internship to gain experience working in a professional production environment while " +
-    //             "contributing to meaningful and enriching projects.",
-    objective: "CS student with great attention to detail, communication skills, and desire to help others seeking " +
-                "a position as a TA for CodePath's interview prep course. I am a former alum of the course who " +
-                "would like to give back by contributing to a smooth course run this Fall.",
+    objective: "CS student with great attention to detail, communication skills, and desire to learn seeking " +
+                "an internship to gain experience working in a professional production environment while " +
+                "contributing to meaningful and enriching projects.",
+    // objective: "CS student with great attention to detail, communication skills, and desire to help others seeking " +
+    //             "a position as a TA for CodePath's interview prep course. I am a former alum of the course who " +
+    //             "would like to give back by contributing to a smooth course run this Fall.",
     coursework: "Computer Architecture, Systems Programming," +
                 " Data Mining & Machine Learning, iOS Development, " +
                 "Operating Systems, Analysis of Algorithms, " +
