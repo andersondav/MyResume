@@ -83,7 +83,7 @@ class Projects extends React.Component {
                                 display: 'flex',
                                 height: '20px',
                                 background: 'none'}}>
-                                    {this.canvLoaded && 
+                                    {project.github != null && this.canvLoaded && 
                                     <img src={this.iconsToConvert[0].icon} 
                                         key={'img-' + 0} alt={this.iconsToConvert[0].alt} 
                                         style={{height: 20, width: 20}}/>}

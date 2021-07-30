@@ -15,35 +15,37 @@ var myInfo = {
         gradDate: 'Expected Spring 2022'
     },
     technicalSkills: {
-        proficient: ['Java', 'C', 'Swift/iOS', 'Python', 'C++', 'ReactJS', 'Github', 'HTML/CSS', 'Javascript', , 'AngularJS'],
-        basic: ['Linux', 'Elixir', 'Firebase', 'R', 'NodeJS']  
+        proficient: ['C/C++', 'Swift/iOS', 'Python', 'Assembly', 'Linux', 'Github'],
+        basic: ['Docker', 'Django', 'SQL', 'Javascript', 'HTML/CSS', 'ReactJS']  
     },
     softSkills: [
         'Team player', 'Communicator', 'Problem-solver', 'Decision-maker'
     ],
     workExperience: [
         {
-            company: 'DK Dwellings, LLC',
-            location: 'Carmel, IN',
-            date: 'Jun-Aug 2018 & 2019',
-            desc: 'Worked on a team to complete assignments for company\'s clients.'
+            company: 'Purdue CS TA',
+            location: null,
+            date: 'Summer 2020 and Spring 2021',
+            desc: 'Coordinated labs and study sessions to create a positive course experience.'
         },
         {
-            company: 'Garmin, International',
-            location: 'Olathe, KS',
-            date: 'May-Aug 2020',
-            desc: 'Cancelled due to COVID-19'
+            company: 'Intuit',
+            location: 'San Diego, California',
+            date: 'Summer 2021',
+            desc: 'Software Engineer Intern in Mobile Role'
         }
     ],
     objective: "CS student with great attention to detail, communication skills, and desire to learn seeking " +
                 "an internship to gain experience working in a professional production environment while " +
                 "contributing to meaningful and enriching projects.",
-    // objective: "CS student with great enjoyment of creating seeking " +
-    //              "admission into WinHacks 2020 to gain additional experience contributing to meaningful and enriching projects, and " +
-    //              "participating in the nationwide CS community through large-scale hackathons.",
-    coursework: "Object-Oriented Programming (Java), Programming in C, Data Structures " +
-                "and Algorithms, Computer Architecture, Foundations of Computer Science, Systems Programming," +
-                " Data Mining & Machine Learning, Codepath iOS Development Course",
+    // objective: "CS student with great attention to detail, communication skills, and desire to learn seeking " +
+    //             "admission into the Purdue CS graduate program to support continued education in computer systems and security " +
+    //             "topics through interactions with faculty and experts in those fields.",
+    coursework: "Object-Oriented Programming, Data Structures " +
+                "and Algorithms, Computer Architecture, Systems Programming," +
+                " Data Mining & Machine Learning, iOS Development, " +
+                "Operating Systems, Analysis of Algorithms, " +
+                "Computer Networks (in progress), Computer Security (in progress)",
     projects: [
         {
             title: 'Data Sphere',
@@ -63,34 +65,33 @@ var myInfo = {
             ]
         },
         {
-            title: 'Purdue Nutrition Calculator',
+            title: 'Remote File Systems in Xinu',
             link: null,
-            github: 'https://github.com/purduenutritioncalculator/PurdueNutritionCalc',
-            type: 'Team Project',
-            date: 'Mar-May 2019',
+            github: 'https://github.com/andersondav/RFSResearch',
+            type: 'Undergrad Research',
+            date: 'Spring 2021',
             info: [
-                'iOS Application for Purdue students to track daily nutritional intake from Purdue dining courts.',
-                'Built using Swift and Xcode and utilizes a RESTful API to retrieve food item data.',
-                'Stores user information on device using Xcode UserDefaults and Core Data.',
-                'Project involved applying skills regarding team collaboration and the product development cycle.'
+                'Undergraduate Research Project under Professor Douglas Comer',
+                'Aims to explore how Remote File Systems are implemented, by studying the Xinu operating system\'s remote file interactions with a Linux server',
+                'Additionally aims to make improvements to RFS implementation and add features such as local file caching',
             ],
             keywords: [
-                'Xcode', 'Swift', 'RESTful', 'API', 'Core', 'Data'
+                'Xinu', 'syscalls', 'caching', 'Linux', 'operating', 'system\'s', 'Remote', 'File', 'Systems', 'Linux', 'local', 'file'
             ]
         }
     ],
     activities: [
         {
-            name: "iOS Dev Club",
+            name: "Purdue iOS Dev Club",
             dates: "Sep 2018 - Present"
         },
         {
-            name: "Hello World Hackathon 2019 Executive Team",
-            dates: "Mar - Sep 2019"
+            name: "Hello World Hackathon Executive Team",
+            dates: "Summer/Fall 2019"
         },
         {
-            name: "CodePath iOS Tech Fellow/TA",
-            dates: 'Jan 2020 - Present'
+            name: "CodePath iOS Tech Fellow",
+            dates: 'Spring 2020, 2021'
         }
     ]
 }

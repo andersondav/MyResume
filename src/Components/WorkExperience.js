@@ -17,12 +17,19 @@ class WorkExperience extends React.Component {
             <h1 style={{margin: '0 0'}}>Work Experience</h1>
                 {
                     this.state.workExperience.map((exp, index, arr) => {
+                        let li;
+                        if (exp.location) {
+                            li = <li style={{margin: '0 0 0 0'}}>{exp.date} in {exp.location}</li>;
+                        }
+                        else {
+                            li = <li style={{margin: '0 0 0 0'}}>{exp.date}</li>;
+                        }
                         return (
                             <div style={{margin: '0 0',
                                 padding: '0 0', background: 'none'}}>
                                 <p style={{margin: '0 0 0 0', textDecoration: 'underline'}}>{exp.company}</p>
                                 <ul style={{margin: '2% 0', padding: '0 0 0 10%'}}>
-                                    <li style={{margin: '0 0 0 0'}}>{exp.date} in {exp.location}</li>
+                                    {li}
                                     <li style={{margin: '0 0 0 0'}}>{exp.desc}</li>
                                 </ul>
                             </div>)
