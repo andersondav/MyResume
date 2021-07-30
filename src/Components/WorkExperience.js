@@ -12,7 +12,7 @@ class WorkExperience extends React.Component {
 
     render() {
         return (
-            <div style={{margin: '0 0 4% 0',
+            <div style={{margin: '0 0 1% 0',
             background: 'none'}}>
             <h1 style={{margin: '0 0'}}>Work Experience</h1>
                 {
@@ -28,9 +28,12 @@ class WorkExperience extends React.Component {
                             <div style={{margin: '0 0',
                                 padding: '0 0', background: 'none'}}>
                                 <p style={{margin: '0 0 0 0', textDecoration: 'underline'}}>{exp.company}</p>
-                                <ul style={{margin: '2% 0', padding: '0 0 0 10%'}}>
+                                <ul style={{margin: '0 0', padding: '0 0 0 5%'}}>
                                     {li}
-                                    <li style={{margin: '0 0 0 0'}}>{exp.desc}</li>
+                                    {typeof exp.desc === 'string' ? (<li style={{margin: '0 0 0 0'}}>{exp.desc}</li>) :
+                                        exp.desc.map((desc) => <li style={{margin: '0 0 0 0'}}>{desc}</li>)
+                                    }
+                                        
                                 </ul>
                             </div>)
                     })

@@ -11,7 +11,7 @@ class Coursework extends React.Component {
 
     render() {
         return (
-            <div style={{margin: '0 0 2% 0', 
+            <div style={{margin: '0 0 3% 0', 
             padding: '0 0',  
             background: 'none'}}>
                 <h1 style={{margin: '0 0', padding: '0 0'}}>Relevant Coursework</h1>

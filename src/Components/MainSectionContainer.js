@@ -2,6 +2,7 @@ import React from 'react';
 import Objective from './Objective';
 import Coursework from './Coursework';
 import Projects from './Projects';
+import WorkExperience from './WorkExperience';
 
 class MainSectionContainer extends React.Component {
     render() {
@@ -13,7 +14,7 @@ class MainSectionContainer extends React.Component {
             margin: '0 4% 0 0'
             }}>
                 <Objective/>
-                <Coursework/>
+                <WorkExperience/>
                 <Projects githubs={this.props.projectGithubs} links={this.props.projectLinks}/>
             </div>
         )

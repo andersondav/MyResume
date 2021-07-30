@@ -3,6 +3,7 @@ import TechnicalSkills from './TechnicalSkills'
 import SoftSkills from './SoftSkills'
 import WorkExperience from './WorkExperience'
 import Activities from './Activities'
+import Coursework from './Coursework'
 
 class SideSectionContainer extends React.Component {
     render() {
@@ -15,7 +16,7 @@ class SideSectionContainer extends React.Component {
             background: 'none'}}>
                 <TechnicalSkills/>
                 <SoftSkills/>
-                <WorkExperience/>
+                <Coursework/>
                 <Activities/>
             </div>
         )

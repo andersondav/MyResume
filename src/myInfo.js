@@ -15,37 +15,33 @@ var myInfo = {
         gradDate: 'Expected Spring 2022'
     },
     technicalSkills: {
-        proficient: ['C/C++', 'Swift/iOS', 'Python', 'Assembly', 'Linux', 'Github'],
-        basic: ['Docker', 'Django', 'SQL', 'Javascript', 'HTML/CSS', 'ReactJS']  
+        proficient: ['C/C++', 'Swift/iOS', 'TypeScript', 'ReactJS', 'Python', 'Assembly', 'Linux', 'Github'],
+        basic: ['Docker', 'Django', 'SQL']  
     },
     softSkills: [
         'Team player', 'Communicator', 'Problem-solver', 'Decision-maker'
     ],
     workExperience: [
         {
-            company: 'Purdue CS TA',
-            location: null,
-            date: 'Summer 2020 and Spring 2021',
-            desc: 'Coordinated labs and study sessions to create a positive course experience.'
-        },
-        {
             company: 'Intuit',
-            location: 'San Diego, California',
+            location: 'San Diego, CA (Remote)',
             date: 'Summer 2021',
-            desc: 'Software Engineer Intern in Mobile Role'
-        }
+            desc: ['Software Engineering Intern on the UIPlatform team', 
+                    'Worked in agile environment to develop scalable UI for TurboTax Online',
+                    'Utilized various platforms such as React, TypeScript, Jira',
+                    'Created reusable UI to contribute to company goals']
+        },
     ],
-    objective: "CS student with great attention to detail, communication skills, and desire to learn seeking " +
-                "an internship to gain experience working in a professional production environment while " +
-                "contributing to meaningful and enriching projects.",
     // objective: "CS student with great attention to detail, communication skills, and desire to learn seeking " +
-    //             "admission into the Purdue CS graduate program to support continued education in computer systems and security " +
-    //             "topics through interactions with faculty and experts in those fields.",
-    coursework: "Object-Oriented Programming, Data Structures " +
-                "and Algorithms, Computer Architecture, Systems Programming," +
+    //             "an internship to gain experience working in a professional production environment while " +
+    //             "contributing to meaningful and enriching projects.",
+    objective: "CS student with great attention to detail, communication skills, and desire to help others seeking " +
+                "a position as a TA for CodePath's interview prep course. I am a former alum of the course who " +
+                "would like to give back by contributing to a smooth course run this Fall.",
+    coursework: "Computer Architecture, Systems Programming," +
                 " Data Mining & Machine Learning, iOS Development, " +
                 "Operating Systems, Analysis of Algorithms, " +
-                "Computer Networks (in progress), Computer Security (in progress)",
+                "Computer Networks, Computer Security",
     projects: [
         {
             title: 'Data Sphere',
@@ -82,7 +78,7 @@ var myInfo = {
     ],
     activities: [
         {
-            name: "Purdue iOS Dev Club",
+            name: "President of the Purdue iOS Dev Club",
             dates: "Sep 2018 - Present"
         },
         {
