@@ -14,7 +14,7 @@ class Coursework extends React.Component {
             <div style={{margin: '0 0 3% 0', 
             padding: '0 0',  
             background: 'none'}}>
-                <h1 style={{margin: '0 0', padding: '0 0'}}>Relevant Coursework</h1>
+                <h1 style={{margin: '0 0', padding: '0 0'}}>Coursework</h1>
                 <p style={{margin: '0 0 0 0', padding: '0 0'}}>{this.state.coursework}</p>
             </div>
         )

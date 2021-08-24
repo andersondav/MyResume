@@ -11,6 +11,7 @@ var myInfo = {
         location: 'West Lafayette, IN',
         degree: 'Bachelor of Science in Computer Science',
         degree2: 'Minor in Mathematics',
+        degree3: 'Minor in Management',
         gpa: '4.0/4.0',
         gradDate: 'Expected Spring 2022'
     },
@@ -33,16 +34,31 @@ var myInfo = {
         },
     ],
     objective: "CS student with great attention to detail, communication skills, and desire to learn seeking " +
-                "an internship to gain experience working in a professional production environment while " +
-                "contributing to meaningful and enriching projects.",
+                "employment in a professional production environment while " +
+                "contributing to meaningful projects.",
     // objective: "CS student with great attention to detail, communication skills, and desire to help others seeking " +
     //             "a position as a TA for CodePath's interview prep course. I am a former alum of the course who " +
     //             "would like to give back by contributing to a smooth course run this Fall.",
     coursework: "Computer Architecture, Systems Programming," +
                 " Data Mining & Machine Learning, iOS Development, " +
                 "Operating Systems, Analysis of Algorithms, " +
-                "Computer Networks, Computer Security",
+                "Computer Networks, Computer Security, Compilers",
     projects: [
+        {
+            title: 'Remote File Systems in Xinu',
+            link: null,
+            github: 'https://github.com/andersondav/RFSResearch',
+            type: 'Undergrad Research',
+            date: 'Spring 2021',
+            info: [
+                'Undergraduate Research Project under Professor Douglas Comer',
+                'Aimed to explore how Remote File Systems are implemented, by studying the Xinu operating system\'s remote file interactions with a Linux server',
+                'Additionally aims to make improvements to RFS implementation and add features such as local file caching',
+            ],
+            keywords: [
+                'Xinu', 'syscalls', 'caching', 'Linux', 'operating', 'system\'s', 'Remote', 'File', 'Systems', 'Linux', 'local', 'file'
+            ]
+        },
         {
             title: 'Data Sphere',
             link: 'https://datasphere.space',
@@ -59,27 +75,12 @@ var myInfo = {
             keywords: [
                 'MongoDB', 'Atlas', 'Google', 'Cloud', 'BigQuery', 'Elixir', 'Phoenix', 'Python', '(NLP)'
             ]
-        },
-        {
-            title: 'Remote File Systems in Xinu',
-            link: null,
-            github: 'https://github.com/andersondav/RFSResearch',
-            type: 'Undergrad Research',
-            date: 'Spring 2021',
-            info: [
-                'Undergraduate Research Project under Professor Douglas Comer',
-                'Aims to explore how Remote File Systems are implemented, by studying the Xinu operating system\'s remote file interactions with a Linux server',
-                'Additionally aims to make improvements to RFS implementation and add features such as local file caching',
-            ],
-            keywords: [
-                'Xinu', 'syscalls', 'caching', 'Linux', 'operating', 'system\'s', 'Remote', 'File', 'Systems', 'Linux', 'local', 'file'
-            ]
         }
     ],
     activities: [
         {
             name: "President of the Purdue iOS Dev Club",
-            dates: "Sep 2018 - Present"
+            dates: "Sep 2018 - Present, President since May 2021"
         },
         {
             name: "Hello World Hackathon Executive Team",
