@@ -1,1 +1,1 @@
-Link to webpage: ![](https://andersondav.github.io/MyResume/)
+Link to webpage: [Here](https://andersondav.github.io/MyResume/)
