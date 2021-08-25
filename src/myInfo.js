@@ -45,18 +45,20 @@ var myInfo = {
                 "Computer Networks, Computer Security, Compilers",
     projects: [
         {
-            title: 'Remote File Systems in Xinu',
+            title: 'Remote File Systems in Xinu OS',
             link: null,
-            github: 'https://github.com/andersondav/RFSResearch',
-            type: 'Undergrad Research',
+            github: 'https://github.com/real-xinu/xinu-galileo/tree/rfs-cache',
+            type: 'Research',
             date: 'Spring 2021',
             info: [
-                'Undergraduate Research Project under Professor Douglas Comer',
-                'Aimed to explore how Remote File Systems are implemented, by studying the Xinu operating system\'s remote file interactions with a Linux server',
-                'Additionally aims to make improvements to RFS implementation and add features such as local file caching',
+                'Undergrad Research Project under Professor Douglas Comer',
+                'Aimed to explore and improve Remote File System implementation in the Xinu OS',
+                'Investigated how the Remote File System interacts with Xinu kernel\'s networking interface and device switch table',
+                'Made multiple improvements to existing system, most notably implementing a local cache for remote files into kernel',
+                'Tested performance gain from caching, which revealed up to 80% faster file access speeds'
             ],
             keywords: [
-                'Xinu', 'syscalls', 'caching', 'Linux', 'operating', 'system\'s', 'Remote', 'File', 'Systems', 'Linux', 'local', 'file'
+                'Xinu', 'syscalls', 'Linux', 'OS', 'Remote', 'File', 'System', 'Linux', 'local', 'kernel', 'kernel\'s', 'cache', 'device', 'switch', 'table', '80%', 'faster', 'file', 'access', 'speeds'
             ]
         },
         {
@@ -68,7 +70,6 @@ var myInfo = {
             info: [
                 'Website that allows users to visualize historical events across space and time.',
                 'Data loaded into MongoDB Atlas from Google Cloud BigQuery',
-                'Utilized a backend built with Phoenix for Elixir and a HTML/JS frontend.',
                 'Used natural language processing (NLP) packages in Python',
                 'Project involved quickly learning and adapting to new frameworks and technologies.'
             ],
