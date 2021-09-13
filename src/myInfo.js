@@ -39,10 +39,10 @@ var myInfo = {
     // objective: "CS student with great attention to detail, communication skills, and desire to help others seeking " +
     //             "a position as a TA for CodePath's interview prep course. I am a former alum of the course who " +
     //             "would like to give back by contributing to a smooth course run this Fall.",
-    coursework: "Computer Architecture, Systems Programming," +
+    coursework: "Architecture, Systems Programming," +
                 " Data Mining & Machine Learning, iOS Development, " +
-                "Operating Systems, Analysis of Algorithms, " +
-                "Computer Networks, Computer Security, Compilers",
+                "Operating Systems, Algorithms, " +
+                "Networks, Security, Compilers",
     projects: [
         {
             title: 'Remote File Systems in Xinu OS',
@@ -80,16 +80,20 @@ var myInfo = {
     ],
     activities: [
         {
-            name: "President of the Purdue iOS Dev Club",
-            dates: "Sep 2018 - Present, President since May 2021"
+            name: "Purdue iOS Dev Club",
+            dates: "Sep \'18 - Present, Club President since May \'21"
         },
         {
             name: "Hello World Hackathon Executive Team",
-            dates: "Summer/Fall 2019"
+            dates: "Summer/Fall \'19"
         },
         {
             name: "CodePath iOS Tech Fellow",
-            dates: 'Spring 2020, 2021'
+            dates: 'Spring \'20, \'21'
+        },
+        {
+            name: "CodePath Interview Prep Course TA",
+            dates: 'August \'21-present'
         }
     ]
 }

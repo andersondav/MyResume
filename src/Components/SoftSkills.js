@@ -12,7 +12,7 @@ class SoftSkills extends React.Component {
 
     render() {
         return (
-            <div style={{margin: '4% 4% 4% 2%',
+            <div style={{margin: '3% 4% 3% 2%',
             background: 'none'}}>
                 <h1 style={{margin: '0 0'}}>Soft Skills</h1>
                 <p style={{margin: '0 0 0 0'}}>
